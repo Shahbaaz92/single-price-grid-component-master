@@ -16,7 +16,6 @@ body {
   background-color: #fff;
   max-width: 635px;
   min-height: 475px;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -44,6 +43,9 @@ p {
   line-height: 26px;
   letter-spacing: -0.2px;
 }
+header p {
+  color: #9aa7be;
+}
 
 main {
   display: flex;
@@ -61,7 +63,11 @@ main section:first-of-type {
   width: 50%;
   gap: 20px;
 }
+main section:first-of-type p:first-of-type {
+  color: rgba(255, 255, 255, 0.5);
+}
 .money {
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
 }
@@ -80,4 +86,16 @@ main section:last-of-type {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.17px;
+  color: rgba(255, 255, 255, 0.75);
+}
+button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  line-height: 20px;
+  letter-spacing: -0.17px;
+  border: none;
+  background-color: #c0df33;
+  color: #fff;
 }
