@@ -96,6 +96,7 @@ main section:last-of-type {
   color: rgba(255, 255, 255, 0.75);
 }
 button {
+  cursor: pointer;
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
@@ -106,6 +107,9 @@ button {
   background-color: #c0df33;
   color: #fff;
   border-radius: 5px;
+}
+button:hover {
+  transform: scale(0.98);
 }
 
 @media screen and (max-width: 650px) {
